@@ -5,6 +5,7 @@ CarNumber::CarNumber(string region)
     number = region + to_string(counter / 1000) + to_string(counter / 100 % 10) +
         to_string(counter / 10 % 10) + to_string(counter % 10) + first + second;
 
+   
     counter++;
     if (counter > 9999) {
         counter = 1;
@@ -18,9 +19,11 @@ CarNumber::CarNumber(string region)
 
 string CarNumber::getNumber() const
 {
-    return string();
+    return number;
 }
 
 void CarNumber::showStatic()
 {
+    cout << "Counter: " << counter << endl;
+    cout << "Series:  " << first << second << endl;
 }
