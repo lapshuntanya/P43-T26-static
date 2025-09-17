@@ -18,5 +18,13 @@
     <ClCompile Include="P43-T26-static.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CarNumber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CarNumber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
